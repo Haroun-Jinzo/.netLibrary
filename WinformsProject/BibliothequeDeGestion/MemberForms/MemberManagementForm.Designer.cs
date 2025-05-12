@@ -55,18 +55,19 @@
             panel2.Controls.Add(AjouterBtn);
             panel2.Controls.Add(ModifierBtn);
             panel2.Dock = DockStyle.Top;
-            panel2.Location = new Point(194, 0);
+            panel2.Location = new Point(170, 0);
             panel2.Margin = new Padding(0);
             panel2.Name = "panel2";
             panel2.Padding = new Padding(1);
-            panel2.Size = new Size(606, 131);
+            panel2.Size = new Size(530, 98);
             panel2.TabIndex = 3;
             // 
             // ActualiserBtn
             // 
-            ActualiserBtn.Location = new Point(466, 50);
+            ActualiserBtn.Location = new Point(408, 38);
+            ActualiserBtn.Margin = new Padding(3, 2, 3, 2);
             ActualiserBtn.Name = "ActualiserBtn";
-            ActualiserBtn.Size = new Size(94, 29);
+            ActualiserBtn.Size = new Size(82, 22);
             ActualiserBtn.TabIndex = 8;
             ActualiserBtn.Text = "Actualiser";
             ActualiserBtn.UseVisualStyleBackColor = true;
@@ -74,9 +75,10 @@
             // 
             // SupprimerBtn
             // 
-            SupprimerBtn.Location = new Point(328, 50);
+            SupprimerBtn.Location = new Point(287, 38);
+            SupprimerBtn.Margin = new Padding(3, 2, 3, 2);
             SupprimerBtn.Name = "SupprimerBtn";
-            SupprimerBtn.Size = new Size(94, 29);
+            SupprimerBtn.Size = new Size(82, 22);
             SupprimerBtn.TabIndex = 7;
             SupprimerBtn.Text = "Supprimer";
             SupprimerBtn.UseVisualStyleBackColor = true;
@@ -84,9 +86,10 @@
             // 
             // AjouterBtn
             // 
-            AjouterBtn.Location = new Point(35, 50);
+            AjouterBtn.Location = new Point(31, 38);
+            AjouterBtn.Margin = new Padding(3, 2, 3, 2);
             AjouterBtn.Name = "AjouterBtn";
-            AjouterBtn.Size = new Size(94, 29);
+            AjouterBtn.Size = new Size(82, 22);
             AjouterBtn.TabIndex = 5;
             AjouterBtn.Text = "Ajouter";
             AjouterBtn.UseVisualStyleBackColor = true;
@@ -94,9 +97,10 @@
             // 
             // ModifierBtn
             // 
-            ModifierBtn.Location = new Point(189, 50);
+            ModifierBtn.Location = new Point(165, 38);
+            ModifierBtn.Margin = new Padding(3, 2, 3, 2);
             ModifierBtn.Name = "ModifierBtn";
-            ModifierBtn.Size = new Size(94, 29);
+            ModifierBtn.Size = new Size(82, 22);
             ModifierBtn.TabIndex = 6;
             ModifierBtn.Text = "Modifier";
             ModifierBtn.UseVisualStyleBackColor = true;
@@ -110,8 +114,9 @@
             panel1.Margin = new Padding(0);
             panel1.Name = "panel1";
             panel1.Padding = new Padding(1);
-            panel1.Size = new Size(194, 450);
+            panel1.Size = new Size(170, 338);
             panel1.TabIndex = 2;
+            panel1.Paint += panel1_Paint;
             // 
             // dataGridView1
             // 
@@ -119,10 +124,11 @@
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, firstNameDataGridViewTextBoxColumn, lastNameDataGridViewTextBoxColumn, emailDataGridViewTextBoxColumn, subscriptionDateDataGridViewTextBoxColumn });
             dataGridView1.DataSource = memberBindingSource;
-            dataGridView1.Location = new Point(194, 134);
+            dataGridView1.Location = new Point(170, 100);
+            dataGridView1.Margin = new Padding(3, 2, 3, 2);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(606, 188);
+            dataGridView1.Size = new Size(530, 141);
             dataGridView1.TabIndex = 4;
             // 
             // idDataGridViewTextBoxColumn
@@ -171,12 +177,13 @@
             // 
             // MemberManagementForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(700, 338);
             Controls.Add(dataGridView1);
             Controls.Add(panel2);
             Controls.Add(panel1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "MemberManagementForm";
             Text = "MemberManagementForm";
             Load += MemberManagementForm_Load;

@@ -4,6 +4,7 @@ using BibliothequeDeGestion.Repositories;
 using BibliothequeDeGestion.Forms;
 using BibliothequeDeGestion.BookForms;
 using BibliothequeDeGestion.MemberForms;
+using BibliothequeDeGestion.LoanForms;
 
 
 namespace BibliothequeDeGestion
@@ -32,7 +33,7 @@ namespace BibliothequeDeGestion
 
             // Enregistrer les repositories
             services.AddTransient<BookRepository>();
-            services.AddTransient<LoadRepository>();
+            services.AddTransient<LoanRepository>();
             services.AddTransient<MemberRepository>();
             services.AddTransient<EmailService>();
 
@@ -62,6 +63,7 @@ namespace BibliothequeDeGestion
             services.AddTransient<MainForm>();
             services.AddTransient<BookManagementForm>();
             services.AddTransient<MemberManagementForm>();
+            services.AddTransient<LoanManagementForm>();
             // add loan forms
         }
     }

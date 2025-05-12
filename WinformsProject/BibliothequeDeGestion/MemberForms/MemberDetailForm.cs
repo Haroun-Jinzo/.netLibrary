@@ -23,5 +23,14 @@ namespace BibliothequeDeGestion.MemberForms
 
         }
 
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LNlbl_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

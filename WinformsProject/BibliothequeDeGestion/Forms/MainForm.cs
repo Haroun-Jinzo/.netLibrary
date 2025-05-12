@@ -11,6 +11,7 @@ using LiveChartsCore.SkiaSharpView.SKCharts;
 using LiveChartsCore.Kernel;
 using LiveChartsCore.SkiaSharpView.Drawing;
 using System.Diagnostics;
+using BibliothequeDeGestion.LoanForms;
 
 namespace BibliothequeDeGestion.Forms
 {
@@ -22,6 +23,8 @@ namespace BibliothequeDeGestion.Forms
 
         private BookManagementForm? _bookForm; // Marked as nullable
         private MemberManagementForm? _memberForm; // Marked as nullable
+        private LoanManagementForm? _loanForm; // Marked as nullable
+                
 
         private void MainForm_Load(object sender, EventArgs e)
         {
@@ -79,6 +82,19 @@ namespace BibliothequeDeGestion.Forms
             }
             _memberForm.Show();
             _memberForm.Activate();
+        }
+        private void onLoansBtn_click(object sender, EventArgs e)
+        {
+            ShowLoanForm();
+        }
+        void ShowLoanForm()
+        {
+            if (_loanForm == null || _loanForm.IsDisposed)
+            {
+                _loanForm = _serviceProvider.GetRequiredService<LoanManagementForm>();
+            }
+            _loanForm.Show();
+            _loanForm.Activate();
         }
 
         void loadPieChart()

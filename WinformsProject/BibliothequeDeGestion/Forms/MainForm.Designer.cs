@@ -61,6 +61,7 @@ namespace BibliothequeDeGestion.Forms
             LoanBtn.TabIndex = 2;
             LoanBtn.Text = "Loans";
             LoanBtn.UseVisualStyleBackColor = true;
+            LoanBtn.Click += onLoansBtn_click;
             // 
             // MemberBtn
             // 
@@ -115,7 +116,7 @@ namespace BibliothequeDeGestion.Forms
             // 
             // MainForm
             // 
-            AutoScaleDimensions = new SizeF(13F, 31F);
+            AutoScaleDimensions = new SizeF(11F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(192, 255, 255);
             ClientSize = new Size(1902, 1033);

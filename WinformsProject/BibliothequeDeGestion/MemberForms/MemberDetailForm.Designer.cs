@@ -28,103 +28,132 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             textBox4 = new TextBox();
             textBox3 = new TextBox();
             textBox2 = new TextBox();
             textBox1 = new TextBox();
-            PupYearlbl = new Label();
-            ISBNlbl = new Label();
-            Authorlbl = new Label();
-            Titlelbl = new Label();
+            SDlbl = new Label();
+            Emaillbl = new Label();
+            LNlbl = new Label();
+            FNlbl = new Label();
+            memberBindingSource = new BindingSource(components);
+            Validlbl = new Button();
+            Cancelbl = new Button();
+            ((System.ComponentModel.ISupportInitialize)memberBindingSource).BeginInit();
             SuspendLayout();
             // 
             // textBox4
             // 
+            textBox4.DataBindings.Add(new Binding("Text", memberBindingSource, "SubscriptionDate", true));
             textBox4.Location = new Point(259, 233);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(125, 27);
             textBox4.TabIndex = 19;
-            textBox4.TextChanged += this.textBox4_TextChanged;
             // 
             // textBox3
             // 
+            textBox3.DataBindings.Add(new Binding("Text", memberBindingSource, "Email", true));
             textBox3.Location = new Point(259, 167);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(125, 27);
             textBox3.TabIndex = 18;
-            textBox3.TextChanged += this.textBox3_TextChanged;
             // 
             // textBox2
             // 
+            textBox2.DataBindings.Add(new Binding("Text", memberBindingSource, "LastName", true));
             textBox2.Location = new Point(259, 104);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(125, 27);
             textBox2.TabIndex = 17;
-            textBox2.TextChanged += this.textBox2_TextChanged;
             // 
             // textBox1
             // 
+            textBox1.DataBindings.Add(new Binding("Text", memberBindingSource, "FirstName", true));
             textBox1.Location = new Point(259, 36);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(125, 27);
             textBox1.TabIndex = 16;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
-            // PupYearlbl
+            // SDlbl
             // 
-            PupYearlbl.AutoSize = true;
-            PupYearlbl.Location = new Point(56, 233);
-            PupYearlbl.Name = "PupYearlbl";
-            PupYearlbl.Size = new Size(115, 20);
-            PupYearlbl.TabIndex = 15;
-            PupYearlbl.Text = "Publication year";
-            PupYearlbl.Click += this.PupYearlbl_Click;
+            SDlbl.AutoSize = true;
+            SDlbl.Location = new Point(56, 233);
+            SDlbl.Name = "SDlbl";
+            SDlbl.Size = new Size(127, 20);
+            SDlbl.TabIndex = 15;
+            SDlbl.Text = "Subscribtion Date";
             // 
-            // ISBNlbl
+            // Emaillbl
             // 
-            ISBNlbl.AutoSize = true;
-            ISBNlbl.Location = new Point(56, 167);
-            ISBNlbl.Name = "ISBNlbl";
-            ISBNlbl.Size = new Size(41, 20);
-            ISBNlbl.TabIndex = 14;
-            ISBNlbl.Text = "ISBN";
-            ISBNlbl.Click += this.ISBNlbl_Click;
+            Emaillbl.AutoSize = true;
+            Emaillbl.Location = new Point(56, 167);
+            Emaillbl.Name = "Emaillbl";
+            Emaillbl.Size = new Size(51, 20);
+            Emaillbl.TabIndex = 14;
+            Emaillbl.Text = "EMAIL";
             // 
-            // Authorlbl
+            // LNlbl
             // 
-            Authorlbl.AutoSize = true;
-            Authorlbl.Location = new Point(56, 95);
-            Authorlbl.Name = "Authorlbl";
-            Authorlbl.Size = new Size(54, 20);
-            Authorlbl.TabIndex = 13;
-            Authorlbl.Text = "Author";
-            Authorlbl.Click += this.Authorlbl_Click;
+            LNlbl.AutoSize = true;
+            LNlbl.Location = new Point(56, 95);
+            LNlbl.Name = "LNlbl";
+            LNlbl.Size = new Size(79, 20);
+            LNlbl.TabIndex = 13;
+            LNlbl.Text = "Last Name";
             // 
-            // Titlelbl
+            // FNlbl
             // 
-            Titlelbl.AutoSize = true;
-            Titlelbl.Location = new Point(56, 36);
-            Titlelbl.Name = "Titlelbl";
-            Titlelbl.Size = new Size(38, 20);
-            Titlelbl.TabIndex = 12;
-            Titlelbl.Text = "Title";
-            Titlelbl.Click += this.Titlelbl_Click;
+            FNlbl.AutoSize = true;
+            FNlbl.Location = new Point(56, 36);
+            FNlbl.Name = "FNlbl";
+            FNlbl.Size = new Size(80, 20);
+            FNlbl.TabIndex = 12;
+            FNlbl.Text = "First Name";
+            // 
+            // memberBindingSource
+            // 
+            memberBindingSource.DataSource = typeof(Member);
+            // 
+            // Validlbl
+            // 
+            Validlbl.DialogResult = DialogResult.OK;
+            Validlbl.Location = new Point(681, 396);
+            Validlbl.Name = "Validlbl";
+            Validlbl.Size = new Size(94, 29);
+            Validlbl.TabIndex = 20;
+            Validlbl.Text = "Valider";
+            Validlbl.UseVisualStyleBackColor = true;
+            // 
+            // Cancelbl
+            // 
+            Cancelbl.DialogResult = DialogResult.Cancel;
+            Cancelbl.Location = new Point(572, 396);
+            Cancelbl.Name = "Cancelbl";
+            Cancelbl.Size = new Size(94, 29);
+            Cancelbl.TabIndex = 21;
+            Cancelbl.Text = "Cancel";
+            Cancelbl.UseVisualStyleBackColor = true;
             // 
             // MemberDetailForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(Cancelbl);
+            Controls.Add(Validlbl);
             Controls.Add(textBox4);
             Controls.Add(textBox3);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
-            Controls.Add(PupYearlbl);
-            Controls.Add(ISBNlbl);
-            Controls.Add(Authorlbl);
-            Controls.Add(Titlelbl);
+            Controls.Add(SDlbl);
+            Controls.Add(Emaillbl);
+            Controls.Add(LNlbl);
+            Controls.Add(FNlbl);
             Name = "MemberDetailForm";
             Text = "MemberDetailForm";
+            ((System.ComponentModel.ISupportInitialize)memberBindingSource).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -135,9 +164,12 @@
         private TextBox textBox3;
         private TextBox textBox2;
         private TextBox textBox1;
-        private Label PupYearlbl;
-        private Label ISBNlbl;
-        private Label Authorlbl;
-        private Label Titlelbl;
+        private Label SDlbl;
+        private Label Emaillbl;
+        private Label LNlbl;
+        private Label FNlbl;
+        private BindingSource memberBindingSource;
+        private Button Validlbl;
+        private Button Cancelbl;
     }
 }

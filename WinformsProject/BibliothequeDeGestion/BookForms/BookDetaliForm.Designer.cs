@@ -140,6 +140,7 @@
             // 
             // CancelBtn
             // 
+            CancelBtn.DialogResult = DialogResult.Cancel;
             CancelBtn.Location = new Point(570, 391);
             CancelBtn.Name = "CancelBtn";
             CancelBtn.Size = new Size(94, 29);

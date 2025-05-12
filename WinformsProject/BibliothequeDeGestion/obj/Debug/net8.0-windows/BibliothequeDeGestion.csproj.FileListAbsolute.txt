@@ -191,3 +191,4 @@ C:\Users\Jinzo\Desktop\Polytechnique\sem2\.netC#\Project\WinformsProject\Bibliot
 C:\Users\Jinzo\Desktop\Polytechnique\sem2\.netC#\Project\WinformsProject\BibliothequeDeGestion\bin\Debug\net8.0-windows\runtimes\win-x64\native\libSkiaSharp.dll
 C:\Users\Jinzo\Desktop\Polytechnique\sem2\.netC#\Project\WinformsProject\BibliothequeDeGestion\bin\Debug\net8.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
 C:\Users\Jinzo\Desktop\Polytechnique\sem2\.netC#\Project\WinformsProject\BibliothequeDeGestion\obj\Debug\net8.0-windows\BibliothequeDeGestion.Properties.Resources.resources
+C:\Users\Jinzo\Desktop\Polytechnique\sem2\.netC#\Project\WinformsProject\BibliothequeDeGestion\obj\Debug\net8.0-windows\BibliothequeDeGestion.sourcelink.json

@@ -15,29 +15,29 @@ namespace BibliothequeDeGestion.Repositories
             _context = context;
         }
 
-        public IEnumerable<Member> GetAllBooks()
+        public IEnumerable<Member> GetAllMembers()
         {
             return _context.Members.ToList();
         }
 
-        public Member GetBookById(int id)
+        public Member GetMemberById(int id)
         {
             return _context.Members.Find(id);
         }
 
-        public void AddBook(Member member)
+        public void AddMember(Member member)
         {
             _context.Members.Add(member);
             _context.SaveChanges();
         }
 
-        public void UpdateBook(Member member)
+        public void UpdateMember(Member member)
         {
             _context.Members.Update(member);
             _context.SaveChanges();
         }
 
-        public void DeleteBook(int id)
+        public void DeleteMember(int id)
         {
             var member = _context.Members.Find(id);
             if (member != null)
@@ -49,7 +49,7 @@ namespace BibliothequeDeGestion.Repositories
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            
         }
     }
 }

@@ -12,14 +12,16 @@ namespace BibliothequeDeGestion.MemberForms
 {
     public partial class MemberDetailForm : Form
     {
-        public MemberDetailForm()
+        public MemberDetailForm(Member member)
         {
             InitializeComponent();
+            memberBindingSource.DataSource = member;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
+
     }
 }

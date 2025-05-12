@@ -35,6 +35,7 @@ namespace BibliothequeDeGestion.Forms
             BookBtn = new Button();
             panel2 = new Panel();
             pieChart1 = new LiveChartsCore.SkiaSharpView.WinForms.PieChart();
+            cartesianChart1 = new LiveChartsCore.SkiaSharpView.WinForms.CartesianChart();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -104,12 +105,21 @@ namespace BibliothequeDeGestion.Forms
             pieChart1.Size = new Size(500, 500);
             pieChart1.TabIndex = 2;
             // 
+            // cartesianChart1
+            // 
+            cartesianChart1.Location = new Point(1001, 168);
+            cartesianChart1.MatchAxesScreenDataRatio = false;
+            cartesianChart1.Name = "cartesianChart1";
+            cartesianChart1.Size = new Size(616, 486);
+            cartesianChart1.TabIndex = 3;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(13F, 31F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(192, 255, 255);
             ClientSize = new Size(1902, 1033);
+            Controls.Add(cartesianChart1);
             Controls.Add(pieChart1);
             Controls.Add(panel2);
             Controls.Add(panel1);
@@ -131,5 +141,6 @@ namespace BibliothequeDeGestion.Forms
         private Button MemberBtn;
         private Button BookBtn;
         private LiveChartsCore.SkiaSharpView.WinForms.PieChart pieChart1;
+        private LiveChartsCore.SkiaSharpView.WinForms.CartesianChart cartesianChart1;
     }
 }

@@ -1,11 +1,16 @@
 ﻿using LiveChartsCore.SkiaSharpView;
 using LiveChartsCore;
+using LiveChartsCore.Drawing; // Add this for Padding
 using LiveChartsCore.SkiaSharpView.WinForms;
 using Microsoft.Extensions.DependencyInjection;
 using LiveChartsCore.SkiaSharpView.Painting;
-using LiveChartsCore.SkiaSharpView.SKCharts;
 using LiveChartsCore.SkiaSharpView.VisualElements;
 using SkiaSharp;
+using Microsoft.EntityFrameworkCore;
+using LiveChartsCore.SkiaSharpView.SKCharts;
+using LiveChartsCore.Kernel;
+using LiveChartsCore.SkiaSharpView.Drawing;
+using System.Diagnostics;
 
 namespace BibliothequeDeGestion.Forms
 {
@@ -20,7 +25,8 @@ namespace BibliothequeDeGestion.Forms
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-
+            loadPieChart();
+            LoadColumnChart();
         }
 
         public MainForm(IServiceProvider serviceProvider, LibraryContext dbContext, EmailService emailService)
@@ -30,6 +36,7 @@ namespace BibliothequeDeGestion.Forms
             _db = dbContext;
             _emailService = emailService;
             loadPieChart();
+            LoadColumnChart();
         }
 
         // Load books and members
@@ -125,6 +132,83 @@ namespace BibliothequeDeGestion.Forms
             // Tooltip configuration
             pieChart1.TooltipTextPaint = new SolidColorPaint(SKColors.White);
             pieChart1.TooltipBackgroundPaint = new SolidColorPaint(SKColors.DimGray);
+        }
+
+        private void LoadColumnChart()
+        {
+            try
+            {
+                // 1. Get data with explicit date handling  
+                var membersByYear = _db.Members
+                    .AsNoTracking()
+                    .GroupBy(m => m.SubscriptionDate.Year)
+                    .Select(g => new { Year = g.Key, Count = g.Count() })
+                    .OrderBy(x => x.Year)
+                    .ToList();
+
+                // Debug output  
+                Debug.WriteLine($"Found {membersByYear.Count} years:");
+                foreach (var item in membersByYear)
+                {
+                    Debug.WriteLine($"{item.Year}: {item.Count} members");
+                }
+
+                if (!membersByYear.Any())
+                {
+                    MessageBox.Show("No subscription data found");
+                    return;
+                }
+
+                // 2. Create series with enhanced visibility  
+                var columnSeries = new ColumnSeries<int>
+                {
+                    Values = membersByYear.Select(x => x.Count).ToArray(),
+                    Name = "Subscriptions",
+                    DataLabelsPaint = new SolidColorPaint(SKColors.Black),
+                    Fill = new SolidColorPaint(SKColors.MediumSlateBlue),
+                    Stroke = new SolidColorPaint(SKColors.Navy, 2),
+                    MaxBarWidth = 40,
+                    Padding = 20
+                };
+
+                // 3. Configure axes with explicit formatting  
+                cartesianChart1.XAxes = new[]
+                {
+                   new Axis
+                   {
+                       Labels = membersByYear.Select(x => x.Year.ToString()).ToArray(),
+                       LabelsRotation = 0,
+                       SeparatorsPaint = new SolidColorPaint(SKColors.LightGray),
+                       Name = "Subscription Year",
+                       NamePaint = new SolidColorPaint(SKColors.DarkSlateGray)
+                   }
+               };
+
+                cartesianChart1.YAxes = new[]
+                {
+                   new Axis
+                   {
+                       MinLimit = 0,
+                       MaxLimit = membersByYear.Max(x => x.Count) + 1,
+                       ForceStepToMin = true,
+                       MinStep = 1, // Corrected property name  
+                       Name = "Number of Members",
+                       NamePaint = new SolidColorPaint(SKColors.DarkSlateGray)
+                   }
+               };
+
+                // 4. Clear previous data and update  
+                cartesianChart1.Series = Array.Empty<ISeries>();
+                cartesianChart1.Series = new[] { columnSeries };
+                cartesianChart1.CoreCanvas.Invalidate();
+
+                // 5. Force UI update  
+                Application.DoEvents();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error loading chart: {ex.Message}");
+            }
         }
     }
 }

@@ -30,18 +30,18 @@
         {
             components = new System.ComponentModel.Container();
             panel2 = new Panel();
+            ActualiserBtn = new Button();
+            SupprimerBtn = new Button();
+            AjouterBtn = new Button();
+            ModifierBtn = new Button();
             panel1 = new Panel();
             dataGridView1 = new DataGridView();
-            memberBindingSource = new BindingSource(components);
             idDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             firstNameDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             lastNameDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             emailDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             subscriptionDateDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            ActualiserBtn = new Button();
-            SupprimerBtn = new Button();
-            ModifierBtn = new Button();
-            AjouterBtn = new Button();
+            memberBindingSource = new BindingSource(components);
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)memberBindingSource).BeginInit();
@@ -61,6 +61,46 @@
             panel2.Padding = new Padding(1);
             panel2.Size = new Size(606, 131);
             panel2.TabIndex = 3;
+            // 
+            // ActualiserBtn
+            // 
+            ActualiserBtn.Location = new Point(466, 50);
+            ActualiserBtn.Name = "ActualiserBtn";
+            ActualiserBtn.Size = new Size(94, 29);
+            ActualiserBtn.TabIndex = 8;
+            ActualiserBtn.Text = "Actualiser";
+            ActualiserBtn.UseVisualStyleBackColor = true;
+            ActualiserBtn.Click += BookList_Load;
+            // 
+            // SupprimerBtn
+            // 
+            SupprimerBtn.Location = new Point(328, 50);
+            SupprimerBtn.Name = "SupprimerBtn";
+            SupprimerBtn.Size = new Size(94, 29);
+            SupprimerBtn.TabIndex = 7;
+            SupprimerBtn.Text = "Supprimer";
+            SupprimerBtn.UseVisualStyleBackColor = true;
+            SupprimerBtn.Click += Supprimer_Click;
+            // 
+            // AjouterBtn
+            // 
+            AjouterBtn.Location = new Point(35, 50);
+            AjouterBtn.Name = "AjouterBtn";
+            AjouterBtn.Size = new Size(94, 29);
+            AjouterBtn.TabIndex = 5;
+            AjouterBtn.Text = "Ajouter";
+            AjouterBtn.UseVisualStyleBackColor = true;
+            AjouterBtn.Click += Ajouter_Click;
+            // 
+            // ModifierBtn
+            // 
+            ModifierBtn.Location = new Point(189, 50);
+            ModifierBtn.Name = "ModifierBtn";
+            ModifierBtn.Size = new Size(94, 29);
+            ModifierBtn.TabIndex = 6;
+            ModifierBtn.Text = "Modifier";
+            ModifierBtn.UseVisualStyleBackColor = true;
+            ModifierBtn.Click += Modifier_Click;
             // 
             // panel1
             // 
@@ -84,10 +124,6 @@
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(606, 188);
             dataGridView1.TabIndex = 4;
-            // 
-            // memberBindingSource
-            // 
-            memberBindingSource.DataSource = typeof(Member);
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -129,41 +165,9 @@
             subscriptionDateDataGridViewTextBoxColumn.Name = "subscriptionDateDataGridViewTextBoxColumn";
             subscriptionDateDataGridViewTextBoxColumn.Width = 125;
             // 
-            // ActualiserBtn
+            // memberBindingSource
             // 
-            ActualiserBtn.Location = new Point(466, 50);
-            ActualiserBtn.Name = "ActualiserBtn";
-            ActualiserBtn.Size = new Size(94, 29);
-            ActualiserBtn.TabIndex = 8;
-            ActualiserBtn.Text = "Actualiser";
-            ActualiserBtn.UseVisualStyleBackColor = true;
-            // 
-            // SupprimerBtn
-            // 
-            SupprimerBtn.Location = new Point(328, 50);
-            SupprimerBtn.Name = "SupprimerBtn";
-            SupprimerBtn.Size = new Size(94, 29);
-            SupprimerBtn.TabIndex = 7;
-            SupprimerBtn.Text = "Supprimer";
-            SupprimerBtn.UseVisualStyleBackColor = true;
-            // 
-            // ModifierBtn
-            // 
-            ModifierBtn.Location = new Point(189, 50);
-            ModifierBtn.Name = "ModifierBtn";
-            ModifierBtn.Size = new Size(94, 29);
-            ModifierBtn.TabIndex = 6;
-            ModifierBtn.Text = "Modifier";
-            ModifierBtn.UseVisualStyleBackColor = true;
-            // 
-            // AjouterBtn
-            // 
-            AjouterBtn.Location = new Point(35, 50);
-            AjouterBtn.Name = "AjouterBtn";
-            AjouterBtn.Size = new Size(94, 29);
-            AjouterBtn.TabIndex = 5;
-            AjouterBtn.Text = "Ajouter";
-            AjouterBtn.UseVisualStyleBackColor = true;
+            memberBindingSource.DataSource = typeof(Member);
             // 
             // MemberManagementForm
             // 

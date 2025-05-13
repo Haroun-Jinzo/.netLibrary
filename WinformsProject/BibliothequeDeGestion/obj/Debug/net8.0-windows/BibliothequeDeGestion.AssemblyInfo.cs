@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BibliothequeDeGestion")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd93b44ac3bcd8114fbcf06dd3e5cb7a55b26df7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66f8c2455513399396499fc0d535bf5350ae0a81")]
 [assembly: System.Reflection.AssemblyProductAttribute("BibliothequeDeGestion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BibliothequeDeGestion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

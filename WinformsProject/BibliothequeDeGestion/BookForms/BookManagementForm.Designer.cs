@@ -72,7 +72,6 @@
             ActualiserBtn.TabIndex = 3;
             ActualiserBtn.Text = "Actualiser";
             ActualiserBtn.UseVisualStyleBackColor = true;
-            ActualiserBtn.Click += BookList_Load;
             // 
             // SupprimerBtn
             // 

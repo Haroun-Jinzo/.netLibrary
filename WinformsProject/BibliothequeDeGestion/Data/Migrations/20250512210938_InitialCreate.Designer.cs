@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BibliothequeDeGestion.Data.Migrations
 {
     [DbContext(typeof(LibraryContext))]
-    [Migration("20250506174344_InitialCreate")]
+    [Migration("20250512210938_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -109,13 +109,13 @@ namespace BibliothequeDeGestion.Data.Migrations
                     b.HasOne("Book", "Book")
                         .WithMany()
                         .HasForeignKey("BookId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("Member", "Member")
                         .WithMany()
                         .HasForeignKey("MemberId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Book");

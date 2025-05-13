@@ -17,7 +17,6 @@ namespace BibliothequeDeGestion.LoanForms
     {
         private readonly LibraryContext _db = new LibraryContext();
         private IServiceProvider _serviceProvider;
-        private LoanDetailForm _LoanDetailForm;
 
         public LoanManagementForm(IServiceProvider serviceProvider)
         {
@@ -27,10 +26,10 @@ namespace BibliothequeDeGestion.LoanForms
         }
         private void Ajouter_Click(object sender, EventArgs e)
         {
-           
+
             var newLoan = new Loan();
-          
-            var dialogForm = new LoanDetailForm(newLoan, getMembers() , getBooks());
+
+            var dialogForm = new LoanDetailForm(newLoan, getMembers(), getBooks());
             var dialogResult = dialogForm.ShowDialog();
             if (dialogResult == DialogResult.OK)
             {
@@ -42,7 +41,7 @@ namespace BibliothequeDeGestion.LoanForms
             ReloadData();
         }
 
-       
+
         private IEnumerable<Member> getMembers()
         {
             using (var repoMember = _serviceProvider.GetRequiredService<MemberRepository>())
@@ -59,12 +58,6 @@ namespace BibliothequeDeGestion.LoanForms
             }
         }
 
-
-        private void BookList_Load(object sender, EventArgs e)
-        {
-            ReloadData();
-        }
-
         private void ReloadData()
         {
             using (var repoLoan = _serviceProvider.GetRequiredService<LoanRepository>())
@@ -77,7 +70,7 @@ namespace BibliothequeDeGestion.LoanForms
             var loan = loanBindingSource.Current as Loan;
             if (loan != null)
             {
-                var dialogForm = new LoanDetailForm(loan , getMembers(), getBooks() );
+                var dialogForm = new LoanDetailForm(loan, getMembers(), getBooks());
                 var dialogResult = dialogForm.ShowDialog();
                 if (dialogResult == DialogResult.OK)
                 {
@@ -110,5 +103,9 @@ namespace BibliothequeDeGestion.LoanForms
             //dgvLoans.DataSource = _db.Loans.ToList();
         }
 
+        private void LoanManagementForm_Load(object sender, EventArgs e)
+        {
+            ReloadData();
+        }
     }
 }

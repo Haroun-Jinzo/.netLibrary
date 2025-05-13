@@ -19,26 +19,14 @@ namespace BibliothequeDeGestion.Forms
 
         private readonly LibraryContext _db = new LibraryContext();
         private IServiceProvider _serviceProvider;
-        private MemberDetailForm _MemberDetailForm;
 
         public MemberManagementForm(IServiceProvider serviceProvider)
         {
             _serviceProvider = serviceProvider;
             InitializeComponent();
-            LoadMembers();
         }
 
         private void MemberManagementForm_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void LoadMembers()
-        {
-            //dgvMembers.DataSource = _db.Members.ToList();
-        }
-
-        private void BookList_Load(object sender, EventArgs e)
         {
             ReloadData();
         }

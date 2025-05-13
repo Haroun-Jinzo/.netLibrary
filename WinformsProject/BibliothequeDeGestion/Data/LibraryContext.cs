@@ -35,10 +35,10 @@ public class LibraryContext : DbContext
         modelBuilder.Entity<Loan>()
             .HasOne(l => l.Book)
             .WithMany()
-            .HasForeignKey(l => l.BookId);
+            .HasForeignKey(l => l.BookId).OnDelete(DeleteBehavior.Restrict);
         modelBuilder.Entity<Loan>()
             .HasOne(l => l.Member)
             .WithMany()
-            .HasForeignKey(l => l.MemberId);
+            .HasForeignKey(l => l.MemberId).OnDelete(DeleteBehavior.Restrict);
     }
 }

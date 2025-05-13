@@ -36,7 +36,9 @@ namespace BibliothequeDeGestion.Forms
             panel2 = new Panel();
             pieChart1 = new LiveChartsCore.SkiaSharpView.WinForms.PieChart();
             cartesianChart1 = new LiveChartsCore.SkiaSharpView.WinForms.CartesianChart();
+            label1 = new Label();
             panel1.SuspendLayout();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -86,6 +88,7 @@ namespace BibliothequeDeGestion.Forms
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(192, 192, 255);
+            panel2.Controls.Add(label1);
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(204, 10);
             panel2.Margin = new Padding(0);
@@ -114,9 +117,21 @@ namespace BibliothequeDeGestion.Forms
             cartesianChart1.Size = new Size(616, 486);
             cartesianChart1.TabIndex = 3;
             // 
+            // label1
+            // 
+            label1.Anchor = AnchorStyles.Top;
+            label1.AutoSize = true;
+            label1.Font = new Font("Javanese Text", 28.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(391, 12);
+            label1.Name = "label1";
+            label1.Size = new Size(589, 107);
+            label1.TabIndex = 0;
+            label1.Text = "Library Management App";
+            label1.Click += label1_Click;
+            // 
             // MainForm
             // 
-            AutoScaleDimensions = new SizeF(11F, 25F);
+            AutoScaleDimensions = new SizeF(13F, 31F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(192, 255, 255);
             ClientSize = new Size(1902, 1033);
@@ -130,7 +145,10 @@ namespace BibliothequeDeGestion.Forms
             Padding = new Padding(10);
             StartPosition = FormStartPosition.CenterScreen;
             Text = "MainForm";
+            Load += MainForm_Load_1;
             panel1.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -143,5 +161,6 @@ namespace BibliothequeDeGestion.Forms
         private Button BookBtn;
         private LiveChartsCore.SkiaSharpView.WinForms.PieChart pieChart1;
         private LiveChartsCore.SkiaSharpView.WinForms.CartesianChart cartesianChart1;
+        private Label label1;
     }
 }

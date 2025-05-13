@@ -388,3 +388,5 @@ C:\Users\amork\Desktop\.Net Finals\.netLibrary\WinformsProject\BibliothequeDeGes
 C:\Users\amork\Desktop\.Net Finals\.netLibrary\WinformsProject\BibliothequeDeGestion\obj\Debug\net8.0-windows\ref\BibliothequeDeGestion.dll
 C:\Users\amork\Desktop\.Net Finals\.netLibrary\WinformsProject\BibliothequeDeGestion\obj\Debug\net8.0-windows\BibliothequeDeGestion.LoanForms.LoanDetailForm.resources
 C:\Users\amork\Desktop\.Net Finals\.netLibrary\WinformsProject\BibliothequeDeGestion\obj\Debug\net8.0-windows\BibliothequeDeGestion.LoanForms.LoanManagementForm.resources
+C:\Users\Jinzo\Desktop\Polytechnique\sem2\.netC#\Project\WinformsProject\BibliothequeDeGestion\obj\Debug\net8.0-windows\BibliothequeDeGestion.LoanForms.LoanDetailForm.resources
+C:\Users\Jinzo\Desktop\Polytechnique\sem2\.netC#\Project\WinformsProject\BibliothequeDeGestion\obj\Debug\net8.0-windows\BibliothequeDeGestion.LoanForms.LoanManagementForm.resources

@@ -52,20 +52,18 @@
             // 
             // ActualiserBtn
             // 
-            ActualiserBtn.Location = new Point(408, 38);
-            ActualiserBtn.Margin = new Padding(3, 2, 3, 2);
+            ActualiserBtn.Location = new Point(466, 51);
             ActualiserBtn.Name = "ActualiserBtn";
-            ActualiserBtn.Size = new Size(82, 22);
+            ActualiserBtn.Size = new Size(94, 29);
             ActualiserBtn.TabIndex = 8;
             ActualiserBtn.Text = "Actualiser";
             ActualiserBtn.UseVisualStyleBackColor = true;
             // 
             // SupprimerBtn
             // 
-            SupprimerBtn.Location = new Point(287, 38);
-            SupprimerBtn.Margin = new Padding(3, 2, 3, 2);
+            SupprimerBtn.Location = new Point(328, 51);
             SupprimerBtn.Name = "SupprimerBtn";
-            SupprimerBtn.Size = new Size(82, 22);
+            SupprimerBtn.Size = new Size(94, 29);
             SupprimerBtn.TabIndex = 7;
             SupprimerBtn.Text = "Supprimer";
             SupprimerBtn.UseVisualStyleBackColor = true;
@@ -73,10 +71,9 @@
             // 
             // AjouterBtn
             // 
-            AjouterBtn.Location = new Point(31, 38);
-            AjouterBtn.Margin = new Padding(3, 2, 3, 2);
+            AjouterBtn.Location = new Point(35, 51);
             AjouterBtn.Name = "AjouterBtn";
-            AjouterBtn.Size = new Size(82, 22);
+            AjouterBtn.Size = new Size(94, 29);
             AjouterBtn.TabIndex = 5;
             AjouterBtn.Text = "Ajouter";
             AjouterBtn.UseVisualStyleBackColor = true;
@@ -84,10 +81,9 @@
             // 
             // ModifierBtn
             // 
-            ModifierBtn.Location = new Point(165, 38);
-            ModifierBtn.Margin = new Padding(3, 2, 3, 2);
+            ModifierBtn.Location = new Point(189, 51);
             ModifierBtn.Name = "ModifierBtn";
-            ModifierBtn.Size = new Size(82, 22);
+            ModifierBtn.Size = new Size(94, 29);
             ModifierBtn.TabIndex = 6;
             ModifierBtn.Text = "Modifier";
             ModifierBtn.UseVisualStyleBackColor = true;
@@ -100,60 +96,75 @@
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, bookIdDataGridViewTextBoxColumn, memberIdDataGridViewTextBoxColumn, loanDateDataGridViewTextBoxColumn, returnDateDataGridViewTextBoxColumn, isReturnedDataGridViewCheckBoxColumn, bookDataGridViewTextBoxColumn, memberDataGridViewTextBoxColumn });
             dataGridView1.DataSource = loanBindingSource;
             dataGridView1.Dock = DockStyle.Fill;
-            dataGridView1.Location = new Point(170, 98);
-            dataGridView1.Margin = new Padding(3, 2, 3, 2);
+            dataGridView1.Location = new Point(194, 131);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(630, 352);
+            dataGridView1.Size = new Size(1053, 531);
             dataGridView1.TabIndex = 7;
             // 
             // idDataGridViewTextBoxColumn
             // 
             idDataGridViewTextBoxColumn.DataPropertyName = "Id";
             idDataGridViewTextBoxColumn.HeaderText = "Id";
+            idDataGridViewTextBoxColumn.MinimumWidth = 6;
             idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
+            idDataGridViewTextBoxColumn.Width = 125;
             // 
             // bookIdDataGridViewTextBoxColumn
             // 
             bookIdDataGridViewTextBoxColumn.DataPropertyName = "BookId";
             bookIdDataGridViewTextBoxColumn.HeaderText = "BookId";
+            bookIdDataGridViewTextBoxColumn.MinimumWidth = 6;
             bookIdDataGridViewTextBoxColumn.Name = "bookIdDataGridViewTextBoxColumn";
+            bookIdDataGridViewTextBoxColumn.Width = 125;
             // 
             // memberIdDataGridViewTextBoxColumn
             // 
             memberIdDataGridViewTextBoxColumn.DataPropertyName = "MemberId";
             memberIdDataGridViewTextBoxColumn.HeaderText = "MemberId";
+            memberIdDataGridViewTextBoxColumn.MinimumWidth = 6;
             memberIdDataGridViewTextBoxColumn.Name = "memberIdDataGridViewTextBoxColumn";
+            memberIdDataGridViewTextBoxColumn.Width = 125;
             // 
             // loanDateDataGridViewTextBoxColumn
             // 
             loanDateDataGridViewTextBoxColumn.DataPropertyName = "LoanDate";
             loanDateDataGridViewTextBoxColumn.HeaderText = "LoanDate";
+            loanDateDataGridViewTextBoxColumn.MinimumWidth = 6;
             loanDateDataGridViewTextBoxColumn.Name = "loanDateDataGridViewTextBoxColumn";
+            loanDateDataGridViewTextBoxColumn.Width = 125;
             // 
             // returnDateDataGridViewTextBoxColumn
             // 
             returnDateDataGridViewTextBoxColumn.DataPropertyName = "ReturnDate";
             returnDateDataGridViewTextBoxColumn.HeaderText = "ReturnDate";
+            returnDateDataGridViewTextBoxColumn.MinimumWidth = 6;
             returnDateDataGridViewTextBoxColumn.Name = "returnDateDataGridViewTextBoxColumn";
+            returnDateDataGridViewTextBoxColumn.Width = 125;
             // 
             // isReturnedDataGridViewCheckBoxColumn
             // 
             isReturnedDataGridViewCheckBoxColumn.DataPropertyName = "IsReturned";
             isReturnedDataGridViewCheckBoxColumn.HeaderText = "IsReturned";
+            isReturnedDataGridViewCheckBoxColumn.MinimumWidth = 6;
             isReturnedDataGridViewCheckBoxColumn.Name = "isReturnedDataGridViewCheckBoxColumn";
+            isReturnedDataGridViewCheckBoxColumn.Width = 125;
             // 
             // bookDataGridViewTextBoxColumn
             // 
             bookDataGridViewTextBoxColumn.DataPropertyName = "Book";
             bookDataGridViewTextBoxColumn.HeaderText = "Book";
+            bookDataGridViewTextBoxColumn.MinimumWidth = 6;
             bookDataGridViewTextBoxColumn.Name = "bookDataGridViewTextBoxColumn";
+            bookDataGridViewTextBoxColumn.Width = 125;
             // 
             // memberDataGridViewTextBoxColumn
             // 
             memberDataGridViewTextBoxColumn.DataPropertyName = "Member";
             memberDataGridViewTextBoxColumn.HeaderText = "Member";
+            memberDataGridViewTextBoxColumn.MinimumWidth = 6;
             memberDataGridViewTextBoxColumn.Name = "memberDataGridViewTextBoxColumn";
+            memberDataGridViewTextBoxColumn.Width = 125;
             // 
             // loanBindingSource
             // 
@@ -167,11 +178,11 @@
             panel2.Controls.Add(AjouterBtn);
             panel2.Controls.Add(ModifierBtn);
             panel2.Dock = DockStyle.Top;
-            panel2.Location = new Point(170, 0);
+            panel2.Location = new Point(194, 0);
             panel2.Margin = new Padding(0);
             panel2.Name = "panel2";
             panel2.Padding = new Padding(1);
-            panel2.Size = new Size(630, 98);
+            panel2.Size = new Size(1053, 131);
             panel2.TabIndex = 6;
             // 
             // panel1
@@ -182,19 +193,21 @@
             panel1.Margin = new Padding(0);
             panel1.Name = "panel1";
             panel1.Padding = new Padding(1);
-            panel1.Size = new Size(170, 450);
+            panel1.Size = new Size(194, 662);
             panel1.TabIndex = 5;
             // 
             // LoanManagementForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1247, 662);
             Controls.Add(dataGridView1);
             Controls.Add(panel2);
             Controls.Add(panel1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "LoanManagementForm";
             Text = "LoanManagementForm";
+            Load += LoanManagementForm_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)loanBindingSource).EndInit();
             panel2.ResumeLayout(false);

@@ -24,7 +24,7 @@ namespace BibliothequeDeGestion.Forms
         private BookManagementForm? _bookForm; // Marked as nullable
         private MemberManagementForm? _memberForm; // Marked as nullable
         private LoanManagementForm? _loanForm; // Marked as nullable
-                
+
 
         private void MainForm_Load(object sender, EventArgs e)
         {
@@ -225,6 +225,17 @@ namespace BibliothequeDeGestion.Forms
             {
                 MessageBox.Show($"Error loading chart: {ex.Message}");
             }
+        }
+
+        private void MainForm_Load_1(object sender, EventArgs e)
+        {
+            loadPieChart();
+            LoadColumnChart();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

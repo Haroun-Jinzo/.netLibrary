@@ -62,8 +62,11 @@ namespace BibliothequeDeGestion
         {
             services.AddTransient<MainForm>();
             services.AddTransient<BookManagementForm>();
+            services.AddTransient<BookDetaliForm>();
             services.AddTransient<MemberManagementForm>();
+            services.AddTransient<MemberDetailForm>();
             services.AddTransient<LoanManagementForm>();
+            services.AddTransient<LoanDetailForm>();
             // add loan forms
         }
     }

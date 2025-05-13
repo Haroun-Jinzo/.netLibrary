@@ -28,11 +28,6 @@ namespace BibliothequeDeGestion.Forms
 
         private void BookManagementForm_Load(object sender, EventArgs e)
         {
-            
-        }
-
-        private void BookList_Load(object sender, EventArgs e)
-        {
             ReloadData();
         }
 

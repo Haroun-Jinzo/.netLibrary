@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\bibliothequedegestion\\loanforms\\loandetailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|solutionrelative:bibliothequedegestion\\loanforms\\loandetailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\.netc#\\project\\winformsproject\\bibliothequedegestion\\data\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|solutionrelative:bibliothequedegestion\\data\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\.netc#\\project\\winformsproject\\bibliothequedegestion\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|solutionrelative:bibliothequedegestion\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\bibliothequedegestion\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|solutionrelative:bibliothequedegestion\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\bibliothequedegestion\\memberforms\\membermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|solutionrelative:bibliothequedegestion\\memberforms\\membermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\.netc#\\project\\winformsproject\\bibliothequedegestion\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|solutionrelative:bibliothequedegestion\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\.netc#\\project\\winformsproject\\bibliothequedegestion\\loanforms\\loandetailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|solutionrelative:bibliothequedegestion\\loanforms\\loandetailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\.netc#\\project\\winformsproject\\bibliothequedegestion\\loanforms\\loandetailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|solutionrelative:bibliothequedegestion\\loanforms\\loandetailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\bibliothequedegestion\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|solutionrelative:bibliothequedegestion\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\.netc#\\project\\winformsproject\\bibliothequedegestion\\repositories\\loanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|solutionrelative:bibliothequedegestion\\repositories\\loanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\bibliothequedegestion\\memberforms\\membermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|solutionrelative:bibliothequedegestion\\memberforms\\membermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\.netc#\\project\\winformsproject\\bibliothequedegestion\\bookforms\\bookmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|solutionrelative:bibliothequedegestion\\bookforms\\bookmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\.netc#\\project\\winformsproject\\bibliothequedegestion\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|solutionrelative:bibliothequedegestion\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\bibliothequedegestion\\loanforms\\loanmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -33,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\bibliothequedegestion\\memberforms\\memberdetailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|solutionrelative:bibliothequedegestion\\memberforms\\memberdetailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\.netc#\\project\\winformsproject\\bibliothequedegestion\\bookforms\\bookmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|solutionrelative:bibliothequedegestion\\bookforms\\bookmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\bibliothequedegestion\\bookforms\\bookmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -55,20 +63,12 @@
       "RelativeMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|solutionrelative:bibliothequedegestion\\bookforms\\bookdetaliform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\.netc#\\project\\winformsproject\\bibliothequedegestion\\loanforms\\loanmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|solutionrelative:bibliothequedegestion\\loanforms\\loanmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\.netc#\\project\\winformsproject\\bibliothequedegestion\\memberforms\\membermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|solutionrelative:bibliothequedegestion\\memberforms\\membermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\.netc#\\project\\winformsproject\\bibliothequedegestion\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|solutionrelative:bibliothequedegestion\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\.netc#\\project\\winformsproject\\bibliothequedegestion\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|solutionrelative:bibliothequedegestion\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\.netc#\\project\\winformsproject\\bibliothequedegestion\\forms\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -97,10 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\.netc#\\project\\winformsproject\\bibliothequedegestion\\repositories\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|solutionrelative:bibliothequedegestion\\repositories\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\.netc#\\project\\winformsproject\\bibliothequedegestion\\data\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|solutionrelative:bibliothequedegestion\\data\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C49E4CE-22B9-4888-B2EC-474334A1E118}|BibliothequeDeGestion\\BibliothequeDeGestion.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\.netc#\\project\\winformsproject\\bibliothequedegestion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -162,36 +158,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoanDetailForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\LoanForms\\LoanDetailForm.cs",
-              "RelativeDocumentMoniker": "BibliothequeDeGestion\\LoanForms\\LoanDetailForm.cs",
-              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\LoanForms\\LoanDetailForm.cs [Design]",
-              "RelativeToolTip": "BibliothequeDeGestion\\LoanForms\\LoanDetailForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T17:40:03.601Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BookManagementForm.cs",
-              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\BookForms\\BookManagementForm.cs",
-              "RelativeDocumentMoniker": "BibliothequeDeGestion\\BookForms\\BookManagementForm.cs",
-              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\BookForms\\BookManagementForm.cs",
-              "RelativeToolTip": "BibliothequeDeGestion\\BookForms\\BookManagementForm.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAkwCAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T14:48:35.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "MemberManagementForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\MemberForms\\MemberManagementForm.cs",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\MemberForms\\MemberManagementForm.cs",
@@ -203,13 +174,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "LoanDetailForm.cs",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\LoanForms\\LoanDetailForm.cs",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\LoanForms\\LoanDetailForm.cs",
               "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\LoanForms\\LoanDetailForm.cs",
               "RelativeToolTip": "BibliothequeDeGestion\\LoanForms\\LoanDetailForm.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwDgAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwC4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T17:25:26.341Z",
               "EditorCaption": ""
@@ -222,13 +193,14 @@
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\Repositories\\LoanRepository.cs",
               "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\Repositories\\LoanRepository.cs",
               "RelativeToolTip": "BibliothequeDeGestion\\Repositories\\LoanRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA+wB4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:58:22.27Z"
+              "WhenOpened": "2025-05-12T16:58:22.27Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\Forms\\MainForm.cs",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\Forms\\MainForm.cs",
@@ -240,7 +212,58 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoanDetailForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\LoanForms\\LoanDetailForm.cs",
+              "RelativeDocumentMoniker": "BibliothequeDeGestion\\LoanForms\\LoanDetailForm.cs",
+              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\LoanForms\\LoanDetailForm.cs [Design]",
+              "RelativeToolTip": "BibliothequeDeGestion\\LoanForms\\LoanDetailForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:40:03.601Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "BibliothequeDeGestion\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "BibliothequeDeGestion\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwEQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T21:30:57.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LibraryContext.cs",
+              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\Data\\LibraryContext.cs",
+              "RelativeDocumentMoniker": "BibliothequeDeGestion\\Data\\LibraryContext.cs",
+              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\Data\\LibraryContext.cs",
+              "RelativeToolTip": "BibliothequeDeGestion\\Data\\LibraryContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T17:20:22.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookManagementForm.cs",
+              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\BookForms\\BookManagementForm.cs",
+              "RelativeDocumentMoniker": "BibliothequeDeGestion\\BookForms\\BookManagementForm.cs",
+              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\BookForms\\BookManagementForm.cs",
+              "RelativeToolTip": "BibliothequeDeGestion\\BookForms\\BookManagementForm.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:48:35.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\Forms\\MainForm.cs",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\Forms\\MainForm.cs",
@@ -248,23 +271,23 @@
               "RelativeToolTip": "BibliothequeDeGestion\\Forms\\MainForm.cs",
               "ViewState": "AgIAANoAAAAAAAAAAAAnwO0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T23:20:28.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T23:20:28.92Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "LoanManagementForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\LoanForms\\LoanManagementForm.cs",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\LoanForms\\LoanManagementForm.cs",
               "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\LoanForms\\LoanManagementForm.cs [Design]",
               "RelativeToolTip": "BibliothequeDeGestion\\LoanForms\\LoanManagementForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T17:07:01.928Z"
+              "WhenOpened": "2025-05-12T17:07:01.928Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "MemberDetailForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\MemberForms\\MemberDetailForm.cs",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\MemberForms\\MemberDetailForm.cs",
@@ -275,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "BookManagementForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\BookForms\\BookManagementForm.cs",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\BookForms\\BookManagementForm.cs",
@@ -286,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "MemberDetailForm.cs",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\MemberForms\\MemberDetailForm.cs",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\MemberForms\\MemberDetailForm.cs",
@@ -298,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "BookDetaliForm.cs",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\BookForms\\BookDetaliForm.cs",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\BookForms\\BookDetaliForm.cs",
@@ -311,19 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "LoanManagementForm.cs",
-              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\LoanForms\\LoanManagementForm.cs",
-              "RelativeDocumentMoniker": "BibliothequeDeGestion\\LoanForms\\LoanManagementForm.cs",
-              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\LoanForms\\LoanManagementForm.cs",
-              "RelativeToolTip": "BibliothequeDeGestion\\LoanForms\\LoanManagementForm.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAwwCAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T17:49:35.503Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "BookDetaliForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\BookForms\\BookDetaliForm.cs",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\BookForms\\BookDetaliForm.cs",
@@ -334,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "MemberManagementForm.cs",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\MemberForms\\MemberManagementForm.cs",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\MemberForms\\MemberManagementForm.cs",
@@ -346,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\Services\\EmailService.cs",
@@ -355,18 +366,6 @@
               "ViewState": "AgIAAAEAAAAAAAAAAAAqwA4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T17:15:56.741Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ServiceCollectionExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\ServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "BibliothequeDeGestion\\ServiceCollectionExtensions.cs",
-              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\ServiceCollectionExtensions.cs",
-              "RelativeToolTip": "BibliothequeDeGestion\\ServiceCollectionExtensions.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAYwEQAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T21:30:57.505Z"
             },
             {
               "$type": "Document",
@@ -456,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "20250512204346_CheckSchema.cs",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\Data\\Migrations\\20250512204346_CheckSchema.cs",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\Data\\Migrations\\20250512204346_CheckSchema.cs",
@@ -468,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\Program.cs",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\Program.cs",
@@ -480,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "20250512210938_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\Data\\Migrations\\20250512210938_InitialCreate.cs",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\Data\\Migrations\\20250512210938_InitialCreate.cs",
@@ -492,19 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "LibraryContext.cs",
-              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\Data\\LibraryContext.cs",
-              "RelativeDocumentMoniker": "BibliothequeDeGestion\\Data\\LibraryContext.cs",
-              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\Data\\LibraryContext.cs",
-              "RelativeToolTip": "BibliothequeDeGestion\\Data\\LibraryContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA1wCUAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T17:20:22.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "Resources.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\Properties\\Resources.Designer.cs",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\Properties\\Resources.Designer.cs",
@@ -516,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "Member.datasource",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\Properties\\DataSources\\Member.datasource",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\Properties\\DataSources\\Member.datasource",
@@ -528,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "Book.datasource",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\Properties\\DataSources\\Book.datasource",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\Properties\\DataSources\\Book.datasource",
@@ -540,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "Loan.cs",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\Models\\Loan.cs",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\Models\\Loan.cs",
@@ -552,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "LoanManagementForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\LoanForms\\LoanManagementForm.Designer.cs",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\LoanForms\\LoanManagementForm.Designer.cs",
@@ -560,11 +547,12 @@
               "RelativeToolTip": "BibliothequeDeGestion\\LoanForms\\LoanManagementForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T17:08:16.49Z"
+              "WhenOpened": "2025-05-12T17:08:16.49Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "DataService.cs",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\Services\\DataService.cs",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\Services\\DataService.cs",
@@ -576,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "LibraryContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\Data\\Migrations\\LibraryContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\Data\\Migrations\\LibraryContextModelSnapshot.cs",
@@ -588,7 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\Form1.cs",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\Form1.cs",
@@ -601,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\Form1.cs",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\Form1.cs",
@@ -612,7 +600,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "BookDetaliForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\.netC#\\Project\\WinformsProject\\BibliothequeDeGestion\\BookForms\\BookDetaliForm.Designer.cs",
               "RelativeDocumentMoniker": "BibliothequeDeGestion\\BookForms\\BookDetaliForm.Designer.cs",

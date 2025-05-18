@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BibliothequeDeGestion.Data.Migrations
 {
     [DbContext(typeof(LibraryContext))]
-    [Migration("20250512210938_InitialCreate")]
+    [Migration("20250513093554_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -107,13 +107,13 @@ namespace BibliothequeDeGestion.Data.Migrations
             modelBuilder.Entity("Loan", b =>
                 {
                     b.HasOne("Book", "Book")
-                        .WithMany()
+                        .WithMany("Loans")
                         .HasForeignKey("BookId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("Member", "Member")
-                        .WithMany()
+                        .WithMany("Loans")
                         .HasForeignKey("MemberId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
@@ -121,6 +121,16 @@ namespace BibliothequeDeGestion.Data.Migrations
                     b.Navigation("Book");
 
                     b.Navigation("Member");
+                });
+
+            modelBuilder.Entity("Book", b =>
+                {
+                    b.Navigation("Loans");
+                });
+
+            modelBuilder.Entity("Member", b =>
+                {
+                    b.Navigation("Loans");
                 });
 #pragma warning restore 612, 618
         }

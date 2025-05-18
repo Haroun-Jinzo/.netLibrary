@@ -137,6 +137,7 @@
             ValiderBtn.TabIndex = 13;
             ValiderBtn.Text = "Valider";
             ValiderBtn.UseVisualStyleBackColor = true;
+            ValiderBtn.Click += ValiderBtn_Click;
             // 
             // CancelBtn
             // 

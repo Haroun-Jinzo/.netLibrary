@@ -22,5 +22,10 @@ namespace BibliothequeDeGestion.BookForms
         {
 
         }
+
+        private void ValiderBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

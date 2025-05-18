@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections;
+using Microsoft.EntityFrameworkCore;
 
 namespace BibliothequeDeGestion.Repositories
 {
@@ -17,7 +19,7 @@ namespace BibliothequeDeGestion.Repositories
 
         public IEnumerable<Loan> GetAllLoans()
         {
-            return _context.Loans.ToList();
+            return _context.Loans.Include(x => x.Book).Include(x => x.Member) ;
         }
 
         public Loan GetLoanById(int id)
